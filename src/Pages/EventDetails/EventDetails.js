@@ -6,8 +6,8 @@ import { MdArrowForwardIos } from 'react-icons/md';
 
 const EventDetails = () => {
     return (
-        <div className='bg-[#F6F2FF]'>
-            <img className='w-[375px] h-[375px] pb-[11px]' src={eventPhoto} alt="" />
+        <div>
+            <img className='w-full h-full lg:w-[500px] lg:h-[500px] pb-[11px]' src={eventPhoto} alt="" />
             <div className='mx-[20px]'>
                 <h1 className='text-[#240D57] text-[28px] leading-[32.2px] font-bold pb-[4px]'>Birthday Bash</h1>
                 <h3 className='text-[#828282] text-[14px] leading-[16.1px] font-normal pb-[32px]'>Hosted by <strong>Elysia</strong></h3>

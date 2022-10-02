@@ -7,7 +7,7 @@ import ToolsBar from "./Pages/Shared/ToolsBar/ToolsBar";
 
 function App() {
   return (
-    <div className="font-[Helvetica]">
+    <div className="font-[Helvetica] bg-[#F6F2FF]">
        <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/addEventDetails" element={<AddEventDetails/>}/>
