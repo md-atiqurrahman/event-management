@@ -1,6 +1,8 @@
 import { Route, Routes } from "react-router-dom";
+import AddEventDetails from "./Pages/AddEventDetails/AddEventDetails";
+import EventDetails from "./Pages/EventDetails/EventDetails";
 import Home from "./Pages/Home/Home/Home";
-import MenuBar from "./Pages/Shared/MenuBar/MenuBar";
+import ToolsBar from "./Pages/Shared/ToolsBar/ToolsBar";
 
 
 function App() {
@@ -8,8 +10,10 @@ function App() {
     <div className="font-[Helvetica]">
        <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/addEventDetails" element={<AddEventDetails/>}/>
+        <Route path="/eventDetails" element={<EventDetails/>}/>
       </Routes>
-      <MenuBar></MenuBar>
+      <ToolsBar/>
     </div>
   );
 }
