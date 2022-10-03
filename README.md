@@ -1,10 +1,10 @@
-# Getting Started with Create React App
+# Event manager
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project live site [Click here](https://event-manager-01.netlify.app/).
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+Through this website you can easily invite your friends across any social media platforms and they can easily invite you at any event.This website purpose is to don't miss any event in our life.
 
 ### `npm start`
 
